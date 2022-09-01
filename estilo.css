@@ -1,0 +1,56 @@
+
+body {
+    margin: 0%;
+    padding: 0%;
+}
+
+header{
+    background-image: url("EMV_banner_estadoRed.jpg");
+    width: 1500px;
+    height: 200px;
+    border: 1px solid black;
+}
+
+
+.fondo-estados{
+    background-image: url("EMV_RESUMEN_disposicion.jpg");
+    margin: 0%;
+    /* width: 100%; */
+    width: 1500px;
+    height: 569px;
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+    
+
+    
+    border: 1px solid black;
+}
+
+.cont-estados{
+    width: 500px;
+    height: 569px;
+    margin: 0px;
+    padding: 0px;
+
+    margin-left: auto; /*para centrar los estados*/
+    margin-right: auto; /*para centrar los estados*/
+
+    border: 1px solid black;
+}
+
+.cont-estados div{
+
+    background-color: coral;
+    border: 1px solid black;
+
+} 
+
+
+footer{
+    background: url("EMV_footer_ingreso.jpg");
+    margin: 0px;
+    width: 1500px;
+    height: 110px;
+    border: 1px solid black;
+}
